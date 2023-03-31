@@ -21,6 +21,8 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
     <script src="js/actual_script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
 </head>
 
@@ -248,38 +250,37 @@
     <!--Features Carousal Start-->
     <div style="width: 84%; margin: 50px auto;">
         <div class="features carousel-container">
-            <!--              <button id="prevBtn"><i class="fa fa-arrow-left"></i></button>-->
             <div class="carousel">
                 <div class="card">
-                    <i class="fa fa-user"></i>
-                    <p>Description 1</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-home"></i>
-                    <p>Description 2</p>
+                    <i class="fa fa-bookmark"></i>
+                    <p>Library Workshops</p>
                 </div>
                 <div class="card">
                     <i class="fa fa-book"></i>
-                    <p>Description 3</p>
+                    <p>Reading Across Campus</p>
                 </div>
                 <div class="card">
-                    <i class="fa fa-cog"></i>
-                    <p>Description 4</p>
+                    <i class="fa fa-book"></i>
+                    <p>Au D Space Repository</p>
+                </div>
+                <div class="card">
+                    <i class="fa fa-pencil-square"></i>
+                    <p>Writing and Citation Styles</p>
                 </div>
                 <div class="card">
                     <i class="fa fa-envelope"></i>
+                    <p>Book a library study room</p>
+                </div>
+                <div class="card">
+                    <i class="fa fa-book"></i>
                     <p>Description 5</p>
                 </div>
                 <div class="card">
-                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-pencil-square"></i>
                     <p>Description 5</p>
                 </div>
                 <div class="card">
-                    <i class="fa fa-envelope"></i>
-                    <p>Description 5</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-envelope"></i>
+                    <i class="fa fa-bookmark"></i>
                     <p>Description 5</p>
                 </div>
                 <div class="card">
@@ -287,52 +288,38 @@
                     <p>Description 5</p>
                 </div>
             </div>
-            <!--              <button id="nextBtn"><i class="fa fa-arrow-right"></i></button>-->
         </div>
-
         <!--Features Carousal End-->
 
         <!--library hours and new books start-->
-        <div class="row">
-            <div class="col-sm-12 col-lg-4">
-                <div class="box-shadow">
-                        <h4>Library Hours Today</h4>
-                        <ul>
-                            <li>
-                                <span>Monday</span>
-                                <span>8:00 AM - 5:00 PM</span>
-                            </li>
-                            <li>
-                                <span>Tuesday</span>
-                                <span>8:00 AM - 5:00 PM</span>
-                            </li>
-                            <li>
-                                <span>Wednesday</span>
-                                <span>8:00 AM - 5:00 PM</span>
-                            </li>
-                            <li>
-                                <span>Thursday</span>
-                                <span>8:00 AM - 5:00 PM</span>
-                            </li>
-                            <li>
-                                <span>Friday</span>
-                                <span>8:00 AM - 5:00 PM</span>
-                            </li>
-                            <li>
-                                <span>Saturday</span>
-                                <span>8:00 AM - 5:00 PM</span>
-                            </li>
-                            <li>
-                                <span>Sunday</span>
-                                <span>Closed</span>
-                            </li>
-                        </ul>
+        <div style="margin-top: 30px; margin-bottom: 60px;">
+        <div class="row" style="background-color: rgba(100,100,180,0.1); padding: 30px;" >
+            <div class="col-sm-12 col-lg-4 box-shadow" style="padding: 20px; background-color: white">
+                <div >
+                        <h4 style="color: #1a1a1a">Library Hours Today</h4>
+                    <div style="margin-top: 10px">
+                        <p>
+                        <i class="fa fa-angle-right" aria-hidden="true" style="color: #b9252f"></i>
+                            <b style="color: #1a1a1a">Building Hours</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;9:00 am to Midnight
+                        </p>
+                        <p>
+                            <b style="color: green">Current Occupancy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            64</b>
+                        </p>
+                        <p>
+                            <i class="fa fa-angle-right" aria-hidden="true" style="color: #b9252f"></i>
+                            <b style="color: #1a1a1a">Online Assistance Hours</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:00 am to 9:00pm
+                        </p>
+                        <hr>
+                        <a><h4 style="text-align: center">SEE ALL HOURS <i class="fa fa-angle-right" aria-hidden="true" style="color: #b9252f"></i></h4></a>
+                    </div>
                     </div>
             </div>
 
-            <div class="col-sm-12 col-lg-8 h-100">
-                <div class="box-shadow h-100">
-                    <h3>New Books</h3>
+            <div class="col-sm-12 col-lg-8 h-100" >
+                <div class="box-shadow h-100 phone-view-adjust" style="padding: 15px; margin-top:5px; background-color: white">
+                    <h4 style="color: #1a1a1a">New Books at Sherrod</h4>
                     <div class="new-book">
                         <div id="slide-left-container">
                             <div class="slide-left">
@@ -343,81 +330,51 @@
                                 <div class="card">
                                     <img src="images/books/book1.jpeg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Animals</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book1.jpg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Nature</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book2.jpg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Architecture</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book3.jpg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Technology</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book4.jpeg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>People</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book4.jpeg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Animals</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img style="height: 148px" src="images/books/book4.jpeg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Animals</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book4.jpeg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Animals</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book4.jpeg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Animals</b>
-                                        </h4>
                                     </div>
                                 </div>
                                 <div class="card">
                                     <img src="images/books/book4.jpeg" alt="Book" style="width:100%">
                                     <div class="container">
-                                        <h4>
-                                            <b>Animals</b>
-                                        </h4>
                                     </div>
                                 </div>
                             </div>
@@ -433,8 +390,80 @@
                 </div>
             </div>
         </div>
+        </div>
         <!--library hours and new books end-->
 
+        <!--Services Section Start-->
+        <section class="team-section section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 col-sm-5 col-xs-12 services-card">
+                        <div class="team-member">
+                            <img src="images/team/room.jpeg" alt="doctor" class="img-responsive">
+                            <div class="contents text-center">
+                                <h4>Room Reservation</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5 col-xs-12 services-card">
+                        <div class="team-member">
+                            <img src="images/team/faculty.jpg" alt="doctor" class="img-responsive">
+                            <div class="contents text-center">
+                                <h4>Faculty and Graduate Services</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5 col-xs-12 services-card">
+                        <div class="team-member">
+                            <img src="images/team/room.jpeg" alt="doctor" class="img-responsive">
+                            <div class="contents text-center">
+                                <h4>Help</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-5 col-xs-12 services-card">
+                        <div class="team-member">
+                            <img src="images/team/faculty.jpg" alt="doctor" class="img-responsive">
+                            <div class="contents text-center">
+                                <h4>Request Forms</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Services Section -- !>
+
+<!--Carousal Start-->
+        <div class="carousal-size">
+        <div id="carousel-example" class="carousel slide carousal-actual" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/banner1.jpg" style="object-fit:cover; width:100%; height: 50vh" />
+                </div>
+                <div class="item">
+                   <img src="images/banner1.jpg" style="object-fit:cover; width:100%; height: 50vh" />
+                </div>
+                <div class="item">
+                    <img src="images/banner1.jpg"  style="object-fit:cover; width:100%; height: 50vh" />
+                </div>
+            </div>
+
+            <a class="center left carousel-control" href="#carousel-example" data-slide="prev" style="background-image: none;color: #b9252f">
+                <i class="fas fa-chevron-left center" style="border-radius: 50%; background: white; padding: 0.3em 0.5em"></i>
+            </a>
+            <a class=" center right carousel-control" href="#carousel-example" data-slide="next" style="background-image: none;color: #b9252f">
+                <i class="fas fa-chevron-right center" style="border-radius: 50%; background: white; padding: 0.3em 0.5em"></i>
+            </a>
+        </div>
+        </div>
+<!--carousal end-->
 
         <!--footer-main-->
         <footer class="footer-main">
@@ -589,6 +618,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="https://getbootstrap.com/docs/3.3/assets/js/vendor/holder.min.js"></script>
 </body>
 
 </html>

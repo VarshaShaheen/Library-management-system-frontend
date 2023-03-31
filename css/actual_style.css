@@ -180,7 +180,7 @@ input[type="text"] {
     display: inline-block;
     margin: 0;
     padding: 20px;
-    animation: scroll 10s linear infinite;
+    animation: scroll 30s linear infinite;
 
 }
 
@@ -299,10 +299,31 @@ input[type="text"] {
         flex-direction: column;
     }
     .new-books {
-        margin-top: 20px;
+        margin-top: 40px;
+    }
+    .phone-view-adjust{
+        margin-top: 30px !important;
     }
 }
+.carousel-control.left i {
+    left: 0;
+    margin-left: -20px;
+}
+.carousel-control.right i {
+    right: 0;
+    margin-right: -20px;
+}
 
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousal-actual{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50vh;
+}
 
 
 

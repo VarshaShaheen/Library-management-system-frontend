@@ -1655,22 +1655,9 @@ li {
   z-index: 1;
 }
 
-.team-section .section-title h3 {
-  position: relative;
-  padding-bottom: 30px;
-}
-
-.team-section .section-title p {
-  font-size: 15px;
-  line-height: 26px;
-  color: #777777;
-  font-weight: 400;
-  padding-bottom: 30px;
-}
 
 .team-section .team-member {
   margin-top: 20px;
-  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
 }
@@ -1682,6 +1669,7 @@ li {
 .team-section .team-member .contents {
   background: #fff;
   padding: 20px 10px;
+  max-height: 8rem;
 }
 
 .team-section .team-member .contents h4 {
