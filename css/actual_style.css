@@ -384,6 +384,9 @@ body > div.page-wrapper > footer > div.footer-top > div > div > div:nth-child(1)
     .reduce-font-size{
         font-size: 1rem;
     }
+    .reduce-margin{
+        margin-left: 0 !important;
+    }
 }
 .policies .story{
     padding-left: 5px !important;
