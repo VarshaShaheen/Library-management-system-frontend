@@ -1,6 +1,6 @@
-(function($) {	
+(function($) {
 	"use strict";
-	
+
 	//6.Scroll to a Specific Div
 	if($('.scroll-to-target').length){
 		$(".scroll-to-target").click('click', function() {
@@ -9,7 +9,7 @@
 		   $('html, body').animate({
 			   scrollTop: $(target).offset().top
 			 }, 1000);
-	
+
 		});
 	}
 })(window.jQuery);
@@ -44,7 +44,7 @@ $(function() {
 	let cardCount = $(div)
 		.find(".cards")
 		.children(".card").length;
-	let speed = 1000;
+	let speed = 2000;
 	let containerWidth = $(".container").width();
 	let cardWidth = 250;
 
@@ -113,5 +113,4 @@ $(function() {
 		}
 	});
 });
-
 

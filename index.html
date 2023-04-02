@@ -16,225 +16,208 @@
     <!-- Stylesheets -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/actual_style.css" rel="stylesheet">
+
     <!--Favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-
 </head>
-
 
 <body>
 <div class="page-wrapper">
     <!-- Horizontal line -->
-    <div style="position: relative;">
-        <hr style="position: absolute; top: 40px; left: 0; width: 100%; height: 0.1px; border: none; background-color: #777777;">
-        <hr style="position: absolute; top: 40px; left: 0; width: 84%; height: 3px; border: none; background-color: #b9252f; transform: translateX(9.7%);">
+    <div style="position: relative; padding: 10px;">
+        <hr style="position: absolute; top: 10px; left: 0; width: 100%; height: 0.1px; border: none; background-color: #777777;">
+        <hr style="position: absolute; top: 10px; left: 0; width: 84%; height: 3px; border: none; background-color: #b9252f; transform: translateX(9.7%);">
     </div>
 
-
     <!--      header container start-->
-    <div style="width: 84%; margin: 50px auto;">
-        <!--Header Upper-->
-        <section class="header-uper">
-            <div class="container clearfix">
-                <div class="logo">
-                    <figure>
-                        <a href="index.html">
-                            <img src="images/logo.png" alt="" width="300">
+    <!--Header Upper-->
+    <section class="header-uper">
+        <div class="container clearfix">
+            <div class="logo">
+                <figure>
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="" width="300">
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!--Header Upper-->
+
+    <!--Main Header-->
+    <nav class="navbar navbar-default" style=" width: 100%;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <!--Replace the # with links of sites that should appear on clicking the button-->
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">
+                            Resources<span class="caret"></span>
                         </a>
-                    </figure>
-                </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Research Guides</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Journal Findings</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Courser Reserve</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Dspace</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Citing References</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">
+                            Services<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Library Form</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Room reservations</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Research assistance Appointment</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">External User Registration</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">New Collections</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">
+                            Forms<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Alumni Registration</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Book Chapter Request</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Library Book Recommendation</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">LRC Instruction Session Request</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Case Study Request</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Course Reserve Access Request</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Inter library loan Request</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Textbook Request</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">About<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="borrowing_policies.html">Borrowing and access policies</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Databases</a>
+                    </li>
+                    <li>
+                        <a href="#">Catalog</a>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <!--Header Upper-->
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--End Main Header -->
 
-
-        <!--Main Header-->
-        <nav class="navbar navbar-default" style=" width: 100%; border-radius: 10px 10px 0px 0px;">
+    <!--=================================
+    =            Page Slider            =
+    ==================================-->
+    <div class="hero-slider">
+        <!-- Slider Item -->
+        <div class="slider-item slide1"
+             style="background-image:url(images/slider/slider-bg-3.jpg); max-height: 50vh">
             <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1"
-                            aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <!--                      Replace the # with links of sites that should appear on clicking the button-->
-                        <li class="active">
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">
-                                Resources<span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Research Guides</a>
-                                </li>
-                                <li>
-                                    <a href="#">Journal Findings</a>
-                                </li>
-                                <li>
-                                    <a href="#">Courser Reserve</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Dspace</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Citing References</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">
-                                Services<span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Library Form</a>
-                                </li>
-                                <li>
-                                    <a href="#">Room reservations</a>
-                                </li>
-                                <li>
-                                    <a href="#">Research assistance Appointment</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">External User Registration</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">New Collections</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">
-                                Forms<span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Alumni Registration</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Book Chapter Request</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Library Book Recommendation</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">LRC Instruction Session Request</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Case Study Request</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Course Reserve Access Request</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Inter library loan Request</a>
-                                </li>
-                                <li role="separator" class="divider"></li>
-                                <li>
-                                    <a href="#">Textbook Request</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">
-                                About Us<span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#">Library Policies</a>
-                                </li>
-                                <li>
-                                    <a href="#">Borrowing and access policies</a>
-                                </li>
-                                <li>
-                                    <a href="#">News</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#">Databases</a>
-                        </li>
-                        <li>
-                            <a href="#">Catalog</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-        <!--End Main Header -->
-
-        <!--=================================
-        =            Page Slider            =
-        ==================================-->
-        <div class="hero-slider">
-            <!-- Slider Item -->
-            <div class="slider-item slide1"
-                 style="background-image:url(images/slider/slider-bg-3.jpg); max-height: 50vh">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <!-- Slide Content Start -->
-                            <div class="content style text-center" style="display: flex">
-                                <!--                        <--search begin-->
-                                <div class="container search-box">
-                                    <div class="row">
-                                        <div class="col-md-6 col-md-offset-3">
-                                            <form class="search-bar" action="#" method="get">
-                                                <div class="input-group">
-                                                    <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                                                    <input style="min-width: 30rem" type="text" class="form-control"
-                                                           placeholder="Books, articles, databases and more.. ">
-                                                    <div class="input-group-btn">
-                                                        <button class="btn dropdown-toggle button" type="button"
-                                                                data-toggle="dropdown" aria-haspopup="true"
-                                                                aria-expanded="false">All resources<span
-                                                                class="caret"></span></button>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="#">Option 1</a></li>
-                                                            <li><a href="#">Option 2</a></li>
-                                                            <li><a href="#">Option 3</a></li>
-                                                        </ul>
-                                                        <button type="submit" class="btn btn-default search-button">
-                                                            Search
-                                                        </button>
-                                                    </div>
-                                                    <div class="vertical-line"></div>
-                                                </div>
-                                            </form>
-                                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Slide Content Start -->
+                        <div class="content style text-center" style="display: flex">
+                            <!--                        <--search begin-->
+                            <div class="container search-box">
+                                    <div class="col-md-10 col-md-offset-1 search-container">
+                                        <script src="https://static-cdn.summon.serialssolutions.com/assets/widgets/box-68deeb35224349f32c38613f5c328f49.js"></script>
+                                        </script>
+                                        <script type="text/javascript">
+                                            summonWidget.box({"id":"s6e49af3f45a877f9d20bb121f8d4684","endpoint":"//cud.summon.serialssolutions.com",
+                                                "style":
+                                                    {"backgroundColor": "#ffffff","tagline":"#000","links":"white","boxwidth_text":350,},
+                                                "params":{"pn":1,"ho":true,"include.ft.matches":"f","myinst":"","jt":"","l":"en"},
+                                                // "tagline_text":"Easily discover the world of library content",
+                                                "searchbutton_text":"<i class='fa fa-search'></i>","advanced_text":"More search options","placeholder_text":
+                                                    "Search...","advanced":true,"suggest":true,"tagline":true,"popup":true})
+                                        </script>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -245,51 +228,57 @@
     <!--====  End of Page Slider  ====-->
 
     <!--Features Carousal Start-->
-    <div style="width: 84%; margin: 50px auto;">
-        <div class="features carousel-container">
-            <div class="carousel">
-                <div class="card">
-                    <i class="fa fa-bookmark"></i>
-                    <p>Library Workshops</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-book"></i>
-                    <p>Reading Across Campus</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-book"></i>
-                    <p>Au D Space Repository</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-pencil-square"></i>
-                    <p>Writing and Citation Styles</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-envelope"></i>
-                    <p>Book a library study room</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-book"></i>
-                    <p>Description 5</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-pencil-square"></i>
-                    <p>Description 5</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-bookmark"></i>
-                    <p>Description 5</p>
-                </div>
-                <div class="card">
-                    <i class="fa fa-envelope"></i>
-                    <p>Description 5</p>
+        <div class="features carousel-container" style="margin-top: 50px; margin-bottom: 0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="list-inline" style="padding: 10px">
+                            <li style="padding-right: 5rem">
+                                <div class="text-center">
+                                    <i class="fa fa-users fa-2x icon-color"></i>
+                                    <p style="color: black" class="reduce-font-size">Study Spaces</p>
+                                </div>
+                            </li>
+                            <li style="padding-right: 5rem">
+                                <div class="text-center reduce-width" >
+                                    <i class="fa fa-laptop fa-2x icon-color"></i>
+                                    <p style="color: black;" class="reduce-font-size">Computers</p>
+                                </div>
+                            </li>
+                            <li style="padding-right: 5rem">
+                                <div class="text-center">
+                                    <i class="fa fa-pencil fa-2x icon-color"></i>
+                                    <p style="color: black" class="reduce-font-size">Writing tools</p>
+                                </div>
+                            </li>
+                            <li style="padding-right: 5rem">
+                                <div class="text-center">
+                                    <i class="fa fa-graduation-cap fa-2x icon-color"></i>
+                                    <p style="color: black" class="reduce-font-size">Student Resources</p>
+                                </div>
+                            </li>
+                            <li style="padding-right: 5rem">
+                                <div class="text-center">
+                                    <i class="fa fa-user fa-2x icon-color"></i>
+                                    <p style="color: black" class="reduce-font-size">Faculty Resources</p>
+                                </div>
+                            </li>
+                            <li style="padding-right: 5rem">
+                                <div class="text-center">
+                                    <i class="fa fa-flask fa-2x icon-color"></i>
+                                    <p style="color: black" class="reduce-font-size">Tutoring and Testing</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+
         </div>
         <!--Features Carousal End-->
 
         <!--library hours and new books start-->
-        <div style="margin-top: 30px; margin-bottom: 60px;">
+        <div style="margin-bottom: 60px;">
         <div class="row" style="background-color: rgba(100,100,180,0.1); padding: 30px;" >
             <div class="col-sm-12 col-lg-4 box-shadow" style="padding: 20px; background-color: white">
                 <div >
@@ -316,7 +305,7 @@
 
             <div class="col-sm-12 col-lg-8 h-100" >
                 <div class="box-shadow h-100 phone-view-adjust" style="padding: 15px; margin-top:5px; background-color: white">
-                    <h4 style="color: #1a1a1a">New Books at Sherrod</h4>
+                    <h4 style="color: #1a1a1a">New Books at CUD LRC</h4>
                     <div class="new-book">
                         <div id="slide-left-container">
                             <div class="slide-left">
@@ -557,7 +546,7 @@
             <div class="footer-bottom">
                 <div class="container clearfix">
                     <div class="copyright-text">
-                        <p>&copy; Copyright 2018. All Rights Reserved by
+                        <p>&copy; Copyright 2023. All Rights Reserved by
                             <a href="index.html">Canadian University Dubai</a>
                         </p>
                     </div>
@@ -566,7 +555,6 @@
         </footer>
         <!--End footer-main-->
     </div>
-</div>
 <!--End pagewrapper-->
 
 <script src="plugins/jquery.js"></script>
@@ -576,12 +564,6 @@
 <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
 <script src="plugins/jquery-ui.js"></script>
 <script src="js/script.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 
 </html>

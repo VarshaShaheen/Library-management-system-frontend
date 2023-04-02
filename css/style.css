@@ -319,7 +319,7 @@ li {
 }
 
 .header-uper {
-  padding: 40px 0px;
+  padding: 15px 0px;
 }
 
 .header-uper .logo {
@@ -464,7 +464,7 @@ li {
   background: #b9252f;
   border: none;
   border-radius: 0;
-  padding: 9px 9px;
+  padding: 8px 8px;
 
 }
 
@@ -477,7 +477,7 @@ li {
 }
 
 .navbar .navbar-nav li a:hover {
-  color: #fff;
+  color: #706d6d;
 }
 
 .navbar .navbar-nav li.active a {
@@ -2507,11 +2507,15 @@ li {
   border-radius: 14px;
   width: 100%;
   box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+  margin-top: 39px;
 }
 
 @media (max-width: 991px) {
   .story .story-content {
     margin-top: 50px;
+  }
+  .story .img{
+    margin-top: 0px !important;
   }
 }
 
@@ -2610,7 +2614,7 @@ li {
 }
 
 .gallery {
-  padding: 100px 0;
+  padding-bottom: 50px;
 }
 
 .gallery .gallery-item {
@@ -3217,8 +3221,8 @@ li {
   .header-uper .logo {
     float: none !important;
     text-align: center;
-    margin-bottom: 20px;
     width: 100%;
+
   }
   .main-header.style-two .logo {
     float: none !important;
@@ -3480,7 +3484,7 @@ li {
     margin-bottom: 30px !important;
   }
   .header-uper .logo {
-    margin-bottom: 40px !important;
+    margin-bottom: 10px !important;
   }
   .header-uper .contact-info .item {
     text-align: left !important;
