@@ -242,10 +242,9 @@
     cursor: pointer;
 }
 
-.card .img {
-    max-width: 220px;
-    height: 220px;
+.card img {
     display: inline-block;
+    object-fit: contain;
 }
 
 #slide-left-container,
@@ -379,7 +378,7 @@ body > div.page-wrapper > footer > div.footer-top > div > div > div:nth-child(1)
         width: 33.33%;
     }
     .summon-search-field{
-        width: 30rem !important;
+        width: 26rem !important;
     }
     .reduce-font-size{
         font-size: 1rem;
