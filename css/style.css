@@ -1665,7 +1665,12 @@ li {
 }
 
 .team-member img {
-  object-fit: contain;
+  object-fit: cover;
+  width: 100%;
+}
+
+.actual-team .team-member .contents{
+  max-height: 13rem !important;
 }
 
 .team-section .team-member .contents {
