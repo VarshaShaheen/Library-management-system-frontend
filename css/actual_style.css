@@ -398,6 +398,19 @@ body > div.page-wrapper > footer > div.footer-top > div > div > div:nth-child(1)
         padding-top: 10px;
         padding-left: 17px !important;
     }
+    .mobile-padding{
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    .mobile-mon{
+        padding-right: 4rem !important;
+    }
+    .mobile-frid{
+        padding-right: 12rem !important;
+    }
+    .mobile-sat{
+        padding-right: 1rem !important;
+    }
 }
 .policies .story{
     padding-left: 5px !important;
