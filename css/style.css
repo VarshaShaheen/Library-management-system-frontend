@@ -1726,8 +1726,7 @@ li {
 .team-members .team-person h6 {
   margin-top: 20px;
   font-size: 20px;
-  text-transform: uppercase;
-  color: #000;
+  color: #b9252f;
 }
 
 .team-members .team-person p {
@@ -2634,6 +2633,7 @@ li {
 
 .gallery .gallery-item img {
   width: 100%;
+  object-fit: cover;
 }
 
 .gallery .gallery-item:before {
@@ -2645,6 +2645,7 @@ li {
   top: 0;
   opacity: 0;
   transition: all .3s ease;
+  object-fit: cover;
 }
 
 .gallery .gallery-item a {

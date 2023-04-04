@@ -411,7 +411,31 @@ body > div.page-wrapper > footer > div.footer-top > div > div > div:nth-child(1)
     .mobile-sat{
         padding-right: 1rem !important;
     }
+    .team-members .team-person img {
+        border-radius: 5px;
+        width: 100%;
+        padding: 0 25px 0 25px !important;
+    }
+    .new-book-container{
+        display: flex;
+        align-items: center;
+    }
+    .team-members .team-person {
+        margin-top: 30px;
+        max-width: 251px !important;
+    }
+    .col-sm-6{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 22px;
+        width: 255px;
+        margin-left: 10px;
+    }
 }
 .policies .story{
     padding-left: 5px !important;
+}
+.thumbnail{
+    max-height: 170px !important;
 }
