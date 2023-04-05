@@ -189,7 +189,7 @@
     text-align: left;
     margin: 20px;
     width: 100%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .library-hours-text{
     font-size: 15px;
@@ -207,7 +207,6 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 4px 16px;
     height: 181px;
 }
 
