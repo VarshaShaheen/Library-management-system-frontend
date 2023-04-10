@@ -243,7 +243,8 @@
 
 .card img {
     display: inline-block;
-    object-fit: contain;
+    object-fit: cover;
+    height: 151px;
 }
 
 #slide-left-container,

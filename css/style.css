@@ -1667,6 +1667,7 @@ li {
 .team-member img {
   object-fit: cover;
   width: 100%;
+  height: 192px;
 }
 
 .actual-team .team-member .contents{
